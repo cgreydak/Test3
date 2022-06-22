@@ -1,2 +1,26 @@
 econf line
 est file to wotk with remove delete
+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
+
+**************************************************************************
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://172.17.199.47/">
+  <information>
+    <title>CTC Launcher</title>
+    <vendor>CISCO Systems Inc.</vendor>
+    <description>Browser-based launcher for CTC</description>
+    <description kind="tooltip">CTC Launcher</description>
+    <icon kind="splash" href="fs/splash.jpg" />
+  </information>
+  <resources>
+    <jar href="fs/SLAUNCH.jar"/>
+    <j2se version="1.6+" java-vm-args="-Xmx256M -XX:MaxPermSize=128m"/>
+    <property name="jnlp.ctc.nelist" value="172.17.199.47"/>
+  </resources>
+  <security>
+    <all-permissions/>
+  </security>
+  <application-desc
+  main-class="com.cisco.ctc.core.launcher.LocalLauncher"/>
+</jnlp>
+**************************************************************************
